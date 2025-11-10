@@ -1,2 +1,14 @@
-# EA-GAN
-Hybrid approach combining GANs with Evolutionary Algorithms for semi-supervised learning with extremely limited labeled data (60-1000 samples). Multi-objective optimization achieves 10% higher accuracy and 97% lower variance compared to baseline, while maintaining image quality (FID ~10).
+🧬 Evolutionary GANs for Semi-Supervised Learning
+
+Hybrid approach combining Generative Adversarial Networks with Multi-Objective 
+Evolutionary Algorithms (NSGA-II) to train robust classifiers with extremely 
+limited labeled data.
+
+✨ Highlights:
+- 10% higher accuracy than baseline GAN
+- 97% reduction in training variance
+- Works with as few as 60 labeled samples
+- Maintains image generation quality (FID ~10)
+- General framework applicable to any GAN architecture
+
+📊 Results on MNIST: 96.7% accuracy with 1,000 labels (1.6% of dataset)
